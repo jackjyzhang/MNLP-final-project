@@ -17,7 +17,7 @@ voices = engine.getProperty('voices')                      # getting details of 
 #engine.setProperty('voice', voices[0].id)                 # changing index, changes voices. o for male
 engine.setProperty('voice', ch_voice_id)
 
-f = open("sampleText.txt", "r")
+f = open("mtresult.txt", "r")
 contents = f.read()
 engine.say(contents)
 engine.runAndWait()
