@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/jackzhang/Documents/GitHub/MNLP-final-project/google-cloud-platform/MNLP-final-mt-69ea0333c54c.json"
+
 curl -X POST \
 -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) \
 -H "Content-Type: application/json; charset=utf-8" \
