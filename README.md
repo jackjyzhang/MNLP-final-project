@@ -7,3 +7,6 @@ Repository for HEART Multilingual NLP fall 19 class final project - an end-to-en
 * [Google Translate API](https://cloud.google.com/translate/docs/basic/setup-basic)
 * [Google Cloud SDK](https://cloud.google.com/sdk/docs/downloads-interactive)
 * [pyttsx3](https://pypi.org/project/pyttsx3/)
+
+## Usage
+Type `./main.sh` in bash console to run
